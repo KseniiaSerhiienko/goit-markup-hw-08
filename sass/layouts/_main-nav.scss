@@ -1,0 +1,19 @@
+.main-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    // @media screen and (min-width: 480px) {
+    //     display: inline-block;
+    // }
+    
+}
+
+.site-menu {
+    display: flex;
+    align-items: center;
+
+    // @media screen and (min-width: 480px) {
+    //     display: block;
+    // }
+}

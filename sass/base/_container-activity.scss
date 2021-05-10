@@ -1,0 +1,13 @@
+.container-activity{
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+    
+
+    @media screen and (max-width: 1199px) {
+        display: none;
+    }
+}
+

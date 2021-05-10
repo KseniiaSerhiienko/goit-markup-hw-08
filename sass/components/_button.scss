@@ -1,0 +1,29 @@
+.button{
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    display: inline-block;
+    border-radius: 6px;
+    border: transparent;
+    min-width: 200px;
+    height: 50px;
+    padding: 10px 32px;
+    
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus{
+    background-color: #188CE8;
+    color: var(--primary-bg-color);
+    }
+}
+

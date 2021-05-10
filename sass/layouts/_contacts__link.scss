@@ -1,0 +1,26 @@
+.contacts__link{
+    display: flex;
+    align-items: center;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover .contacts__icon,
+    &:focus .contacts__icon{
+    stroke: var(--accent-color);
+    }
+
+    
+}
+
+.contacts__icon{
+    width: 18px;
+    height: 14px;
+    margin-right: 10px;
+    stroke: var(--primary-text-color);
+
+    @media screen and (max-width: 480px) {
+        display: none;    
+    }
+}

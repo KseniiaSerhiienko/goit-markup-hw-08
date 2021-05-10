@@ -1,0 +1,48 @@
+.check{
+    padding-left: 20px;
+}
+
+.check__input{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position:absolute;
+}
+
+.check__box{
+    position: absolute;
+    margin-left: -20px;
+    width: 16px;
+    height: 15px;
+    background-image: url(../images/vector.svg);
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
+    @media screen and (min-width: 480px) {
+        top: 497px;
+        
+    }
+    @media screen and (min-width: 768px) {
+        top: 497px;
+        
+    }
+
+    @media screen and (min-width: 1200px) {
+        top: 433px;
+    }
+}
+
+.check-input:checked + .check-box{
+    background-image: url(../images/icon-check.svg);
+
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
+.button-form{
+    position: relative;
+    left: 25%;
+    margin-top: 30px;
+    
+}
