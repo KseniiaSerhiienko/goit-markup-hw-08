@@ -563,26 +563,25 @@ img {
   flex-wrap: wrap;
 }
 
-.feature-list__item {
-  margin-right: 30px;
-}
-
 @media screen and (min-width: 480px) {
   .feature-list__item {
     flex-basis: calc((100% - 30px * 1) / 1);
     text-align: center;
+    margin-right: 0;
   }
 }
 
 @media screen and (min-width: 768px) {
   .feature-list__item {
     flex-basis: calc((100% - 30px * 2) / 2);
+    margin-right: 30px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .feature-list__item {
     flex-basis: calc((100% - 30px * 4) / 4);
+    margin-right: 30px;
   }
 }
 
