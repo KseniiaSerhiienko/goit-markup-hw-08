@@ -20,7 +20,7 @@
     margin-right: 10px;
     stroke: var(--primary-text-color);
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
         display: none;    
     }
 }

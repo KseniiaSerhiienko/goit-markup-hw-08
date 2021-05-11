@@ -4,32 +4,35 @@
     background-color: #2F303A;
 }
 
+.footer-logo{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
 
 .footer__item{
     margin-right: 70px;
     border-radius: 50%;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
         margin-right: 0;
         text-align: center;
         margin-bottom: 60px;
     }
     
-    // @media screen and (max-width: 768px) {
-    //     display: flex;
-    // }
 }
 
 .footer__contact{
     display: inline-block;
     margin-bottom: 9px;
-
+    margin-top: 20px;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #FFFFFF;  
+    color: #FFFFFF; 
 }
 
 .footer__button{
@@ -49,17 +52,17 @@
     margin-bottom: 20px;
     text-transform: uppercase;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 1199px) {
         text-align: center; 
     }
 
-    @media screen and (max-width: 768px) {
-        text-align: center; 
-    }
+    // @media screen and (max-width: 768px) {
+    //     text-align: center; 
+    // }
 }
 
 .footer-part{
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 767px) {
         display: block;
         text-align: center;
         margin-bottom: 60px;

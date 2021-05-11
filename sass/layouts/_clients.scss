@@ -6,12 +6,21 @@
     letter-spacing: 0.03em;
     color: var(--title-text-color);
     margin-bottom: 50px;  
+
+    @media screen and (max-width: 1199px) {
+        font-size: 28px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        font-size: 36px;
+    }
 }
 
 .clients-icon{
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
+    margin-bottom: -30px;
 }
 
 
