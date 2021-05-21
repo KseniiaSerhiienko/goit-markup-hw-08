@@ -6,12 +6,30 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
+    @media screen and (max-width: 767px) {
+    &:hover,
+    &:focus{
+        font-size: 34px;
+    }
+}
+
+
     &:hover .contacts__icon,
     &:focus .contacts__icon{
     stroke: var(--accent-color);
     }
 
-    
+    @media screen and (max-width: 767px) {
+        font-size: 24px; 
+    }
+
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
+        font-size: 12px; 
+    }
+
+    @media screen and (min-width: 1200px){
+        font-size: 14px; 
+    }
 }
 
 .contacts__icon{
@@ -22,5 +40,10 @@
 
     @media screen and (max-width: 767px) {
         display: none;    
+    }
+
+    @media screen and (max-width: 1199px) {
+        width: 14px;
+        height: 10px;   
     }
 }

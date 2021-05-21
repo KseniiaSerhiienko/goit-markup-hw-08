@@ -9,19 +9,25 @@
 
     display: inline-block;
 
-    @media screen and (max-width: 1199px) {
+    @media screen and (max-width: 767px) {
         font-size: 24px;
-        padding: 32px;
+    }
+
+    @media screen and (max-width: 1199px) {
+        display: flex;
+        align-items: center;
+        font-size: 24px;
+        padding-left: 15px;
     }
 
     @media screen and (min-width: 1200px) {
         font-size: 26px;
-        padding: 24px;
-        margin-right: 93px;
+        margin-left: 93px;
     }
 }
 
 .logo__item{
+    font-size: 26px;
     padding-top: 24px;
     padding-bottom: 25px;
     

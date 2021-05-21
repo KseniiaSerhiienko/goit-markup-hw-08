@@ -1,13 +1,13 @@
 .footer-form{
     display: block;
-    margin-left: 93px;
+    // margin-left: 93px;
 
     @media screen and (max-width: 767px) {
         margin-left: 0;
         text-align: end;
     }
 
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 768px) and (max-width: 1199px) {
         margin-top: 60px;
         margin-left: auto;
         margin-right: auto;
@@ -48,6 +48,7 @@
 
     @media screen and (max-width: 768px) {
         margin-bottom: 20px;
+        
     }
 }
 
