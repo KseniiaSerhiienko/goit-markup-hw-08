@@ -2,12 +2,19 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-bottom: 50px;
+    
 
     @media screen and (max-width: 767px) {
         justify-content: flex-start;
         margin-bottom: 40px;
-        
+    }
+
+    @media screen and (min-width: 768px) and (max-width:1199px) {
+        margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
     }
 
     & &__item:not(:last-child){

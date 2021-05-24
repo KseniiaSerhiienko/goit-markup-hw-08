@@ -68,6 +68,10 @@
 .form-label-checkbox{
     display: block;
     -webkit-appearance: none;
+
+    @media screen and (max-width: 1199px){
+        font-size: 12px;
+    }
 }
 
 .modal-form__label--color{
@@ -107,7 +111,7 @@
 
 .modal-form__label textarea{
     resize: none;
-    color: var(--primary-text-color);
+    border: 1px solid rgba(33, 33, 33, 0.2);
 
     @media screen and (max-width: 479px) {
         width: 100%;

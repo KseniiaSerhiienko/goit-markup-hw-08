@@ -58,6 +58,8 @@
 }
 .auth-nav-social{
     display: flex;
+    flex-wrap: wrap;
+    padding-left: 40px;
 
     @media screen and (min-width: 767px) {
         display: none;
@@ -69,11 +71,10 @@
     font-size: 18px;
     color: var(--accent-color);
     position: relative;
-    margin-left: 23px;
+
 
     &::after{
         content: "І";
-        position: absolute;
         top: -3px;
         margin-left: 10px;
         margin-right: 10px;
@@ -81,4 +82,11 @@
     }
 
       
+}
+
+.auth-nav-lists{
+    @media  screen and (max-width: 767px) {
+        position: absolute;
+        bottom: 0;
+    }
 }

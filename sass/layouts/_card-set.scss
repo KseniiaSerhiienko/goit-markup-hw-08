@@ -1,12 +1,15 @@
 .card-set{
     display: flex;
     flex-wrap: wrap;
+
+    @media screen and (max-width: 1199px) {
+        margin-right: -30px;
+    }
     
 
     @media screen and (min-width: 1200px) {
         margin-right: -30px;
-        margin-left: -30px;
-    }
+    }    
 }
 
 .card-set__item{
@@ -44,9 +47,7 @@
 
     @media screen and (min-width: 768px) {
         flex-basis: calc((100% - 30px * 2) /2);
-        width: 354px;
-
-        
+        width: 354px;  
     }
 
     @media screen and (min-width: 1200px) {
@@ -70,7 +71,6 @@
 .card-set__thumb{
     position: relative;
     overflow: hidden;
-
     margin: 0;
-    
+
 }
