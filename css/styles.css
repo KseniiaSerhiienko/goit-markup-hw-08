@@ -1378,7 +1378,6 @@ body .modal-open {
 
 @media screen and (min-width: 480px) {
   .card-set__item {
-    flex-basis: calc((100% - 30px * 1) /1);
     width: 100%;
   }
 }
