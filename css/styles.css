@@ -1751,13 +1751,13 @@ body .modal-open {
 
 @media screen and (min-width: 480px) {
   .check__box {
-    top: 572px;
+    top: 480px;
   }
 }
 
 @media screen and (min-width: 767px) and (max-width: 1199px) {
   .check__box {
-    top: 690px;
+    top: 480px;
   }
 }
 
