@@ -32,7 +32,7 @@
     justify-content: center;
 }
 .hero__title{
-    max-width: 696px;
+    
     margin-top: 0px;
     margin-bottom: 30px;
     margin-left: auto;
@@ -45,15 +45,13 @@
     text-transform: uppercase;
     color: #FFFFFF; 
     
-    @media screen and (max-width: 767px) {
+    @media screen and (max-width: 1199px) {
         font-size: 26px;
-    }
-
-    @media screen and (min-width: 768px) {
-        font-size: 26px;
+        max-width: 360px;
     }
 
     @media screen and (min-width: 1200px) {
         font-size: 44px;
+        max-width: 696px;
     }
 }

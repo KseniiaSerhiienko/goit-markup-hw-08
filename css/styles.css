@@ -527,7 +527,7 @@ body .modal-open {
   .menu-container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     height: 80px;
     width: 100%;
   }
@@ -733,7 +733,6 @@ body .modal-open {
 }
 
 .hero__title {
-  max-width: 696px;
   margin-top: 0px;
   margin-bottom: 30px;
   margin-left: auto;
@@ -746,21 +745,17 @@ body .modal-open {
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
   .hero__title {
     font-size: 26px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero__title {
-    font-size: 26px;
+    max-width: 360px;
   }
 }
 
 @media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 44px;
+    max-width: 696px;
   }
 }
 
@@ -955,12 +950,6 @@ body .modal-open {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .section-team__card > .section-team__item {
-    margin-bottom: 94px;
-  }
-}
-
 .card-content {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1093,6 +1082,8 @@ body .modal-open {
     display: flex;
     padding-top: 60px;
     padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -1101,6 +1092,20 @@ body .modal-open {
   font-weight: bold;
   font-size: 26px;
   margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-container__integrated {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-container__integrated {
+    display: flex;
+  }
 }
 
 .footer__item {
@@ -1265,6 +1270,12 @@ body .modal-open {
   color: rgba(255, 255, 255, 0.6);
 }
 
+@media screen and (max-width: 767px) {
+  .form__field {
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 1199px) {
   .form__field {
     margin-bottom: 20px;
@@ -1348,13 +1359,12 @@ body .modal-open {
 .card-set {
   display: flex;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 @media screen and (min-width: 768px) {
   .card-set {
     margin-right: -30px;
-    margin-top: -30px;
+    margin-bottom: -30px;
   }
 }
 
@@ -1489,6 +1499,7 @@ body .modal-open {
 
 @media screen and (min-width: 480px) and (max-width: 1199px) {
   .modal {
+    margin: 0 auto;
     padding: 40px;
     width: 450px;
     height: 609px;
@@ -1497,7 +1508,7 @@ body .modal-open {
 
 @media screen and (min-width: 1200px) {
   .modal {
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -1508,7 +1519,7 @@ body .modal-open {
 }
 
 .modal__button {
-  position: absolute;
+  position: fixed;
   top: 93px;
   right: 20px;
   margin-top: 8px;
